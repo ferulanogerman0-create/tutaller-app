@@ -9,11 +9,8 @@ export default function Landing() {
           caja, recordatorios y bot WhatsApp — todo en un solo lugar.
         </p>
         <div className="flex gap-4 justify-center">
-          <a href="/signup" className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium">
-            Probar gratis 14 días
-          </a>
-          <a href="/pricing" className="px-6 py-3 border rounded-lg font-medium">
-            Ver precios
+          <a href="/fma/login" className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium">
+            Acceder al sistema
           </a>
         </div>
         <p className="text-xs text-slate-400 mt-12">Status: en desarrollo · Fase 2 · 2026-05-22</p>
