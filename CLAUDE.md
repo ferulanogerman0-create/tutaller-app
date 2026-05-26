@@ -192,34 +192,24 @@ SEED_ADMIN_PASS=<pass>
 - Schema Drizzle reescrito completo
 - Middleware tenant extract + cache
 - Auth reescrito (cookie `tutaller_session`, session con tenantId FK)
-- Actions helper `ctx()` / `ctxAdmin()`
-- `clientes.ts` + `caja.ts` refactorizados al patrón
+- Actions helper `ctx()` / `ctxAdmin()` / `getSlug()`
+- **Todas las actions** (`*.ts`): `ctx()` + `eq(table.tenantId, u.tenantId)` + redirects/revalidatePaths slug-aware via `getSlug()`
 - **Todas las pages `[slug]/dashboard/*/`**: params slug, `base = /${slug}/dashboard`, hrefs slug-aware, DB queries scopeadas
 - Bot `/api/bot` 38 acciones multi-tenant
 - Build: 68 routes, 0 errores TypeScript
-- GitHub repo creado: `ferulanogerman0-create/tutaller-app`
+- GitHub repo: `ferulanogerman0-create/tutaller-app` (branch `master`)
+- EasyPanel: proyecto `tutaller`, DB `tutaller-db` (Postgres 17), app `tutaller-app`
+- Deploy: Dockerfile build, domain `tutaller-tutaller-app.cedb8a.easypanel.host`
+- Migrations + seed corriendo en entrypoint (tenant `fma`, user `german`/`fma1234`)
 
 ### Pendiente
 
-**Actions refactor** (usar `ctx()` + scope):
-- `audit-list.ts`
-- `cierres.ts`
-- `config.ts`
-- `cuentas-corrientes.ts`
-- `inventario.ts`
-- `ordenes.ts` (solo `recalcularTotales` ok, resto ~395 líneas pendiente)
-- `presupuestos.ts`
-- `proveedores.ts`
-- `recordatorios.ts`, `trabajadores.ts`, `turnos.ts`, `vehiculos.ts`, `referidos.ts`, `stats.ts`
-
 **Infra**:
-- EasyPanel: crear proyecto `tutaller` + DB + app service
-- Drizzle migrations generar + correr en DB nueva
-- Seed: primer tenant demo (slug `fma`)
 - RLS Postgres (Fase 2.5, opcional)
+- `SEED_ADMIN_PASS` env var (default actual: `fma1234`)
 
 **Features pendientes**:
-- Landing TuTaller.app real (pricing, signup)
+- Landing TuTaller.app real (pricing, signup flow)
 - Onboarding flow (signup → create tenant → setup wizard)
 - MercadoPago Subscriptions billing
 - Evolution instances dinámicas por tenant (plan=bot)
@@ -232,5 +222,5 @@ SEED_ADMIN_PASS=<pass>
 3. Pages async: `{ params: Promise<{ slug: string }> }` (Next.js 15 async params)
 4. Client pages: `useParams<{ slug: string }>()` no async params
 5. Raw SQL (`db.execute(sql\`...\`)`): agregar `WHERE tenant_id = ${tenantId}` explícito
-6. Forms que redirigen: action con `?slug=${slug}` o redirect include slug
+6. **Actions con redirect/revalidatePath**: usar `const slug = await getSlug()` de `./_ctx` — lee `x-tenant-slug` del middleware header
 7. `getSessionUser()` en pages directamente (no via `ctx()` — ese es para actions)
