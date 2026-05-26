@@ -2,7 +2,7 @@
 import { db, schema } from '@/lib/db';
 import { eq, desc, gte, lte, and, sum } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function listMovimientos(dateFrom?: Date, dateTo?: Date) {
   const u = await ctx();
@@ -25,6 +25,7 @@ export async function getEstadoCaja() {
 
 export async function createMovimiento(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const efectivo = Number(formData.get('efectivo') || 0);
   const otroMonto = Number(formData.get('otro_monto') || 0);
   const total = efectivo + otroMonto;
@@ -40,5 +41,5 @@ export async function createMovimiento(formData: FormData) {
     total: String(total),
     createdBy: u.id,
   });
-  revalidatePath('/dashboard/caja');
+  revalidatePath(`/${slug}/dashboard/caja`);
 }

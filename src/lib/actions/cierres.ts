@@ -2,7 +2,7 @@
 import { db, schema } from '@/lib/db';
 import { eq, isNull, desc, and, gte, sql } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function getCajaActiva(tenantId: number) {
   const rows = await db.select().from(schema.cajaCierres)
@@ -34,6 +34,7 @@ export async function getCierre(id: number) {
 
 export async function abrirCaja(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const activa = await getCajaActiva(u.tenantId);
   if (activa) throw new Error('Ya hay una caja abierta');
 
@@ -46,12 +47,13 @@ export async function abrirCaja(formData: FormData) {
     saldoInicial: String(saldoInicial),
     notas,
   });
-  revalidatePath('/dashboard/caja');
-  revalidatePath('/dashboard/cierres');
+  revalidatePath(`/${slug}/dashboard/caja`);
+  revalidatePath(`/${slug}/dashboard/cierres`);
 }
 
 export async function cerrarCaja(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const activa = await getCajaActiva(u.tenantId);
   if (!activa) throw new Error('No hay caja abierta');
 
@@ -88,8 +90,8 @@ export async function cerrarCaja(formData: FormData) {
       isNull(schema.cajaMovimientos.cierreId),
     ));
 
-  revalidatePath('/dashboard/caja');
-  revalidatePath('/dashboard/cierres');
+  revalidatePath(`/${slug}/dashboard/caja`);
+  revalidatePath(`/${slug}/dashboard/cierres`);
 }
 
 export async function getResumenCajaActiva() {

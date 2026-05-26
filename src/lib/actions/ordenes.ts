@@ -3,7 +3,7 @@ import { db, schema } from '@/lib/db';
 import { eq, desc, sql, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 import { notificar } from '@/lib/notificar';
 import { getConfig } from '@/lib/actions/config';
 import { audit } from '@/lib/audit';
@@ -139,6 +139,7 @@ export async function recalcularTotales(ordenId: number, tenantId: number) {
 
 export async function createOrden(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const clienteId = Number(formData.get('cliente_id'));
   const vehiculoId = Number(formData.get('vehiculo_id'));
   if (!clienteId || !vehiculoId) throw new Error('Cliente y vehículo requeridos');
@@ -176,12 +177,13 @@ export async function createOrden(formData: FormData) {
     );
   }
 
-  revalidatePath('/dashboard/ordenes');
-  redirect(`/dashboard/ordenes/${row.id}`);
+  revalidatePath(`/${slug}/dashboard/ordenes`);
+  redirect(`/${slug}/dashboard/ordenes/${row.id}`);
 }
 
 export async function updateOrden(id: number, formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const pagoEfectivo = Number(formData.get('pago_efectivo') || 0);
   const pagoOtroMonto = Number(formData.get('pago_otro_monto') || 0);
 
@@ -281,10 +283,10 @@ export async function updateOrden(id: number, formData: FormData) {
     }
   }
 
-  revalidatePath(`/dashboard/ordenes/${id}`);
-  revalidatePath('/dashboard/ordenes');
-  revalidatePath('/dashboard/caja');
-  redirect(`/dashboard/ordenes/${id}`);
+  revalidatePath(`/${slug}/dashboard/ordenes/${id}`);
+  revalidatePath(`/${slug}/dashboard/ordenes`);
+  revalidatePath(`/${slug}/dashboard/caja`);
+  redirect(`/${slug}/dashboard/ordenes/${id}`);
 }
 
 export async function addItem(ordenId: number, formData: FormData) {
@@ -395,6 +397,7 @@ export async function updateVehiculoInline(vehiculoId: number, patch: {
 
 export async function deleteOrden(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   if (u.role !== 'admin' && u.role !== 'recepcion') throw new Error('unauthorized');
   const o = await db.select({ comprobante: schema.ordenes.comprobante })
     .from(schema.ordenes)
@@ -408,6 +411,6 @@ export async function deleteOrden(id: number) {
   await db.delete(schema.ordenes)
     .where(and(eq(schema.ordenes.id, id), eq(schema.ordenes.tenantId, u.tenantId)));
   await audit(u.tenantId, u.id, 'orden.delete', { type: 'orden', id }, { comprobante: o[0]?.comprobante });
-  revalidatePath('/dashboard/ordenes');
-  redirect('/dashboard/ordenes');
+  revalidatePath(`/${slug}/dashboard/ordenes`);
+  redirect(`/${slug}/dashboard/ordenes`);
 }

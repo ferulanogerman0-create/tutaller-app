@@ -2,7 +2,7 @@
 import { db, schema } from '@/lib/db';
 import { eq, and, gte, lte, asc } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function listTurnosSemana(inicio: Date) {
   const u = await ctx();
@@ -21,6 +21,7 @@ export async function listTurnosSemana(inicio: Date) {
 
 export async function createTurno(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const titulo = String(formData.get('titulo') || '').trim();
   const detalle = String(formData.get('detalle') || '').trim() || null;
   const clienteId = Number(formData.get('clienteId')) || null;
@@ -37,12 +38,13 @@ export async function createTurno(formData: FormData) {
     estado: 'agendado',
     createdBy: u.id,
   });
-  revalidatePath('/dashboard/calendario');
+  revalidatePath(`/${slug}/dashboard/calendario`);
 }
 
 export async function deleteTurno(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.delete(schema.turnos)
     .where(and(eq(schema.turnos.id, id), eq(schema.turnos.tenantId, u.tenantId)));
-  revalidatePath('/dashboard/calendario');
+  revalidatePath(`/${slug}/dashboard/calendario`);
 }

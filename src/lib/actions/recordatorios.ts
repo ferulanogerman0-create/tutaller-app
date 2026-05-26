@@ -2,7 +2,7 @@
 import { db, schema } from '@/lib/db';
 import { eq, and, gte, lte, asc } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function listRecordatorios({ estado }: { estado?: string } = {}) {
   const u = await ctx();
@@ -35,6 +35,7 @@ export async function listProximosRecordatorios(dias = 30) {
 
 export async function createRecordatorio(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const tipo = String(formData.get('tipo') || 'service') as 'service';
   const titulo = String(formData.get('titulo') || '').trim();
   const detalle = String(formData.get('detalle') || '').trim() || null;
@@ -53,22 +54,24 @@ export async function createRecordatorio(formData: FormData) {
     estado: 'pendiente',
     createdBy: u.id,
   });
-  revalidatePath('/dashboard/recordatorios');
-  revalidatePath('/dashboard');
+  revalidatePath(`/${slug}/dashboard/recordatorios`);
+  revalidatePath(`/${slug}/dashboard`);
 }
 
 export async function marcarRecordatorioCompletado(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.recordatorios)
     .set({ estado: 'completado', completadoAt: new Date() })
     .where(and(eq(schema.recordatorios.id, id), eq(schema.recordatorios.tenantId, u.tenantId)));
-  revalidatePath('/dashboard/recordatorios');
+  revalidatePath(`/${slug}/dashboard/recordatorios`);
 }
 
 export async function cancelarRecordatorio(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.recordatorios)
     .set({ estado: 'cancelado' })
     .where(and(eq(schema.recordatorios.id, id), eq(schema.recordatorios.tenantId, u.tenantId)));
-  revalidatePath('/dashboard/recordatorios');
+  revalidatePath(`/${slug}/dashboard/recordatorios`);
 }

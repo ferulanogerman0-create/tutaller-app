@@ -3,7 +3,7 @@ import { db, schema } from '@/lib/db';
 import { eq, desc, sql, count, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 import { PREMIO_LABEL } from '@/lib/referidos-constants';
 
 async function nextCodigo(tenantId: number) {
@@ -62,6 +62,7 @@ export async function getCodigoDetail(id: number) {
 
 export async function createCodigo(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const clienteId = Number(formData.get('cliente_id'));
   if (!clienteId) throw new Error('cliente_id requerido');
   const premioTipo = (formData.get('premio_tipo') as 'aceite'|'descuento'|'eleccion') || 'aceite';
@@ -71,7 +72,7 @@ export async function createCodigo(formData: FormData) {
     .where(and(eq(schema.referidosCodigos.clienteId, clienteId), eq(schema.referidosCodigos.tenantId, u.tenantId)))
     .limit(1);
   if (existing[0]) {
-    redirect(`/dashboard/referidos/${existing[0].id}`);
+    redirect(`/${slug}/dashboard/referidos/${existing[0].id}`);
   }
 
   const codigo = await nextCodigo(u.tenantId);
@@ -91,20 +92,21 @@ export async function createCodigo(formData: FormData) {
     codigoId: row.id,
   });
 
-  revalidatePath('/dashboard/referidos');
-  redirect(`/dashboard/referidos/${row.id}`);
+  revalidatePath(`/${slug}/dashboard/referidos`);
+  redirect(`/${slug}/dashboard/referidos/${row.id}`);
 }
 
 export async function registrarReferido(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const codigoStr = String(formData.get('codigo') || '').trim().toUpperCase();
   const nombre = String(formData.get('nombre') || '').trim();
   const servicio = String(formData.get('servicio') || '').trim();
   const vehiculoDominio = (formData.get('vehiculo_dominio') as string)?.trim().toUpperCase() || null;
 
   const err = (msg: string) => {
-    revalidatePath('/dashboard/referidos');
-    redirect(`/dashboard/referidos?err=${encodeURIComponent(msg)}`);
+    revalidatePath(`/${slug}/dashboard/referidos`);
+    redirect(`/${slug}/dashboard/referidos?err=${encodeURIComponent(msg)}`);
   };
 
   if (!codigoStr || !nombre || !servicio) err('codigo, nombre y servicio son obligatorios');
@@ -146,12 +148,13 @@ export async function registrarReferido(formData: FormData) {
     });
   }
 
-  revalidatePath('/dashboard/referidos');
-  redirect(`/dashboard/referidos?ok=${encodeURIComponent(`Referido registrado (${newCount}/3)`)}`);
+  revalidatePath(`/${slug}/dashboard/referidos`);
+  redirect(`/${slug}/dashboard/referidos?ok=${encodeURIComponent(`Referido registrado (${newCount}/3)`)}`);
 }
 
 export async function marcarPremiado(codigoId: number) {
   const u = await ctx();
+  const slug = await getSlug();
   const [row] = await db.update(schema.referidosCodigos)
     .set({ premiado: true, premiadoAt: new Date() })
     .where(and(eq(schema.referidosCodigos.id, codigoId), eq(schema.referidosCodigos.tenantId, u.tenantId)))
@@ -168,16 +171,17 @@ export async function marcarPremiado(codigoId: number) {
     sub: PREMIO_LABEL[row.premioTipo],
     codigoId,
   });
-  revalidatePath('/dashboard/referidos');
-  revalidatePath(`/dashboard/referidos/${codigoId}`);
+  revalidatePath(`/${slug}/dashboard/referidos`);
+  revalidatePath(`/${slug}/dashboard/referidos/${codigoId}`);
 }
 
 export async function deleteCodigo(codigoId: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.delete(schema.referidosCodigos)
     .where(and(eq(schema.referidosCodigos.id, codigoId), eq(schema.referidosCodigos.tenantId, u.tenantId)));
-  revalidatePath('/dashboard/referidos');
-  redirect('/dashboard/referidos');
+  revalidatePath(`/${slug}/dashboard/referidos`);
+  redirect(`/${slug}/dashboard/referidos`);
 }
 
 export async function listActividad(limit = 50) {

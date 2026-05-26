@@ -2,7 +2,7 @@
 import { db, schema } from '@/lib/db';
 import { eq, desc, sql, ne, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function listClientesConSaldo() {
   const u = await ctx();
@@ -62,6 +62,7 @@ export async function getClienteCtaCte(clienteId: number) {
 
 export async function registrarPagoCliente(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const clienteId = Number(formData.get('cliente_id'));
   const monto = Number(formData.get('monto') || 0);
   const medio = String(formData.get('medio') || 'efectivo');
@@ -83,7 +84,7 @@ export async function registrarPagoCliente(formData: FormData) {
     .set({ saldoCuentaCorriente: sql`CAST(${schema.clientes.saldoCuentaCorriente} AS NUMERIC) - ${monto}`, updatedAt: new Date() })
     .where(and(eq(schema.clientes.id, clienteId), eq(schema.clientes.tenantId, u.tenantId)));
 
-  revalidatePath('/dashboard/cuentas-corrientes');
-  revalidatePath(`/dashboard/cuentas-corrientes/${clienteId}`);
-  revalidatePath('/dashboard/caja');
+  revalidatePath(`/${slug}/dashboard/cuentas-corrientes`);
+  revalidatePath(`/${slug}/dashboard/cuentas-corrientes/${clienteId}`);
+  revalidatePath(`/${slug}/dashboard/caja`);
 }

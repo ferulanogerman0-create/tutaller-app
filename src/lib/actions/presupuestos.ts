@@ -3,7 +3,7 @@ import { db, schema } from '@/lib/db';
 import { eq, desc, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 function nextPresupuestoCode(id: number) {
   return `PRES-${String(id).padStart(8, '0')}`;
@@ -29,6 +29,7 @@ export async function listPresupuestos() {
 
 export async function createPresupuesto(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const clienteId = Number(formData.get('cliente_id')) || null;
   const vehiculoId = Number(formData.get('vehiculo_id')) || null;
 
@@ -51,12 +52,13 @@ export async function createPresupuesto(formData: FormData) {
     .set({ comprobante: nextPresupuestoCode(row.id) })
     .where(and(eq(schema.ordenes.id, row.id), eq(schema.ordenes.tenantId, u.tenantId)));
 
-  revalidatePath('/dashboard/presupuestos');
-  redirect(`/dashboard/ordenes/${row.id}`);
+  revalidatePath(`/${slug}/dashboard/presupuestos`);
+  redirect(`/${slug}/dashboard/ordenes/${row.id}`);
 }
 
 export async function aprobarPresupuesto(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   const [updated] = await db.update(schema.ordenes)
     .set({
       esPresupuesto: false,
@@ -70,15 +72,16 @@ export async function aprobarPresupuesto(id: number) {
 
   if (!updated) throw new Error('No es presupuesto o ya fue aprobado');
 
-  revalidatePath('/dashboard/presupuestos');
-  revalidatePath('/dashboard/ordenes');
-  redirect(`/dashboard/ordenes/${id}`);
+  revalidatePath(`/${slug}/dashboard/presupuestos`);
+  revalidatePath(`/${slug}/dashboard/ordenes`);
+  redirect(`/${slug}/dashboard/ordenes/${id}`);
 }
 
 export async function eliminarPresupuesto(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.delete(schema.ordenes)
     .where(and(eq(schema.ordenes.id, id), eq(schema.ordenes.tenantId, u.tenantId), eq(schema.ordenes.esPresupuesto, true)));
-  revalidatePath('/dashboard/presupuestos');
-  redirect('/dashboard/presupuestos');
+  revalidatePath(`/${slug}/dashboard/presupuestos`);
+  redirect(`/${slug}/dashboard/presupuestos`);
 }

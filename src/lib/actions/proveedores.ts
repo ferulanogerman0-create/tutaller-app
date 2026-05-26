@@ -3,7 +3,7 @@ import { db, schema } from '@/lib/db';
 import { eq, ilike, or, desc, sql, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function listProveedores(q?: string) {
   const u = await ctx();
@@ -40,6 +40,7 @@ export async function getProveedor(id: number) {
 
 export async function createProveedor(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const nombre = String(formData.get('nombre') || '').trim();
   if (!nombre) throw new Error('nombre requerido');
   await db.insert(schema.proveedores).values({
@@ -52,11 +53,12 @@ export async function createProveedor(formData: FormData) {
     rubro: (formData.get('rubro') as string) || null,
     comentario: (formData.get('comentario') as string) || null,
   });
-  revalidatePath('/dashboard/proveedores');
+  revalidatePath(`/${slug}/dashboard/proveedores`);
 }
 
 export async function updateProveedor(id: number, formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.proveedores).set({
     nombre: String(formData.get('nombre') || '').trim(),
     cuit: (formData.get('cuit') as string) || null,
@@ -66,12 +68,13 @@ export async function updateProveedor(id: number, formData: FormData) {
     rubro: (formData.get('rubro') as string) || null,
     comentario: (formData.get('comentario') as string) || null,
   }).where(and(eq(schema.proveedores.id, id), eq(schema.proveedores.tenantId, u.tenantId)));
-  revalidatePath(`/dashboard/proveedores/${id}`);
-  revalidatePath('/dashboard/proveedores');
+  revalidatePath(`/${slug}/dashboard/proveedores/${id}`);
+  revalidatePath(`/${slug}/dashboard/proveedores`);
 }
 
 export async function registrarCompra(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const proveedorId = Number(formData.get('proveedor_id'));
   const monto = Number(formData.get('monto') || 0);
   const detalle = String(formData.get('detalle') || '').trim();
@@ -104,14 +107,15 @@ export async function registrarCompra(formData: FormData) {
     .set({ saldo: sql`CAST(${schema.proveedores.saldo} AS NUMERIC) + ${monto}` })
     .where(and(eq(schema.proveedores.id, proveedorId), eq(schema.proveedores.tenantId, u.tenantId)));
 
-  revalidatePath(`/dashboard/proveedores/${proveedorId}`);
-  revalidatePath('/dashboard/caja');
+  revalidatePath(`/${slug}/dashboard/proveedores/${proveedorId}`);
+  revalidatePath(`/${slug}/dashboard/caja`);
 }
 
 export async function eliminarProveedor(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.proveedores).set({ activo: false })
     .where(and(eq(schema.proveedores.id, id), eq(schema.proveedores.tenantId, u.tenantId)));
-  revalidatePath('/dashboard/proveedores');
-  redirect('/dashboard/proveedores');
+  revalidatePath(`/${slug}/dashboard/proveedores`);
+  redirect(`/${slug}/dashboard/proveedores`);
 }

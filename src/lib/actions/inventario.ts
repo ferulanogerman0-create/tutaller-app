@@ -2,7 +2,7 @@
 import { db, schema } from '@/lib/db';
 import { eq, ilike, or, desc, sql, isNotNull, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 import { notificar } from '@/lib/notificar';
 
 export async function listItems(query?: string) {
@@ -35,6 +35,7 @@ export async function listStockBajo() {
 
 export async function createInventarioItem(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.insert(schema.inventarioItems).values({
     tenantId: u.tenantId,
     codigo: (formData.get('codigo') as string) || null,
@@ -46,11 +47,12 @@ export async function createInventarioItem(formData: FormData) {
     stockMinimo: formData.get('stock_minimo') ? Number(formData.get('stock_minimo')) : 0,
     activo: true,
   });
-  revalidatePath('/dashboard/inventario');
+  revalidatePath(`/${slug}/dashboard/inventario`);
 }
 
 export async function updateInventarioItem(id: number, formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.inventarioItems).set({
     codigo: (formData.get('codigo') as string) || null,
     nombre: String(formData.get('nombre') || '').trim(),
@@ -60,11 +62,12 @@ export async function updateInventarioItem(id: number, formData: FormData) {
     stock: formData.get('stock') !== '' ? Number(formData.get('stock')) : null,
     stockMinimo: Number(formData.get('stock_minimo') || 0),
   }).where(and(eq(schema.inventarioItems.id, id), eq(schema.inventarioItems.tenantId, u.tenantId)));
-  revalidatePath('/dashboard/inventario');
+  revalidatePath(`/${slug}/dashboard/inventario`);
 }
 
 export async function ajustarStock(id: number, delta: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.inventarioItems)
     .set({ stock: sql`COALESCE(${schema.inventarioItems.stock}, 0) + ${delta}` })
     .where(and(eq(schema.inventarioItems.id, id), eq(schema.inventarioItems.tenantId, u.tenantId)));
@@ -81,12 +84,13 @@ export async function ajustarStock(id: number, delta: number) {
     }
   }
 
-  revalidatePath('/dashboard/inventario');
+  revalidatePath(`/${slug}/dashboard/inventario`);
 }
 
 export async function deleteInventarioItem(id: number) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.inventarioItems).set({ activo: false })
     .where(and(eq(schema.inventarioItems.id, id), eq(schema.inventarioItems.tenantId, u.tenantId)));
-  revalidatePath('/dashboard/inventario');
+  revalidatePath(`/${slug}/dashboard/inventario`);
 }

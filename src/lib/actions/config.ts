@@ -2,7 +2,7 @@
 import { db, schema } from '@/lib/db';
 import { eq, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
-import { ctxAdmin } from './_ctx';
+import { ctxAdmin, getSlug } from './_ctx';
 import { CONFIG_DEFAULTS, type ConfigKey } from '@/lib/config-constants';
 
 export async function getConfig<K extends ConfigKey>(key: K, tenantId?: number): Promise<string> {
@@ -25,6 +25,7 @@ export async function getAllConfig(tenantId?: number): Promise<Record<ConfigKey,
 
 export async function setConfig(formData: FormData) {
   const u = await ctxAdmin();
+  const slug = await getSlug();
   for (const key of Object.keys(CONFIG_DEFAULTS) as ConfigKey[]) {
     const value = String(formData.get(key) ?? '');
     const existing = await db.select({ key: schema.config.key })
@@ -38,5 +39,5 @@ export async function setConfig(formData: FormData) {
       await db.insert(schema.config).values({ tenantId: u.tenantId, key, value, updatedBy: u.id });
     }
   }
-  revalidatePath('/dashboard/configuracion');
+  revalidatePath(`/${slug}/dashboard/configuracion`);
 }

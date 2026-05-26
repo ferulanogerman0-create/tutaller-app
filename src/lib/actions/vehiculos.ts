@@ -3,7 +3,7 @@ import { db, schema } from '@/lib/db';
 import { eq, ilike, or, desc, and } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function listVehiculos(query?: string) {
   const u = await ctx();
@@ -43,6 +43,7 @@ export async function getVehiculoOrdenes(vehiculoId: number) {
 
 export async function createVehiculo(formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   const dominio = String(formData.get('dominio') || '').trim().toUpperCase();
   if (!dominio) throw new Error('Dominio requerido');
   const clienteId = formData.get('cliente_id');
@@ -60,12 +61,13 @@ export async function createVehiculo(formData: FormData) {
     chasis: (formData.get('chasis') as string) || null,
     clienteId: clienteId ? Number(clienteId) : null,
   }).returning({ id: schema.vehiculos.id });
-  revalidatePath('/dashboard/vehiculos');
-  redirect(`/dashboard/vehiculos/${row.id}`);
+  revalidatePath(`/${slug}/dashboard/vehiculos`);
+  redirect(`/${slug}/dashboard/vehiculos/${row.id}`);
 }
 
 export async function updateVehiculo(id: number, formData: FormData) {
   const u = await ctx();
+  const slug = await getSlug();
   await db.update(schema.vehiculos).set({
     dominio: String(formData.get('dominio') || '').trim().toUpperCase(),
     marca: (formData.get('marca') as string) || null,
@@ -79,6 +81,6 @@ export async function updateVehiculo(id: number, formData: FormData) {
     chasis: (formData.get('chasis') as string) || null,
     clienteId: formData.get('cliente_id') ? Number(formData.get('cliente_id')) : null,
   }).where(and(eq(schema.vehiculos.id, id), eq(schema.vehiculos.tenantId, u.tenantId)));
-  revalidatePath(`/dashboard/vehiculos/${id}`);
-  redirect(`/dashboard/vehiculos/${id}`);
+  revalidatePath(`/${slug}/dashboard/vehiculos/${id}`);
+  redirect(`/${slug}/dashboard/vehiculos/${id}`);
 }
