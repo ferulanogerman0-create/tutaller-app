@@ -1,0 +1,1 @@
+ALTER TABLE "inventario_items" ADD COLUMN "stock_minimo" integer DEFAULT 0;

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background-color: theme('colors.fma.black');
+  color: theme('colors.fma.white-soft');
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* FMA brand utilities */
+.btn-primary {
+  @apply bg-fma-cyan text-fma-black font-semibold px-4 py-2 rounded-md hover:bg-fma-cyan-light transition-colors;
+}
+.btn-secondary {
+  @apply bg-fma-black-3 text-fma-white border border-fma-gray-light px-4 py-2 rounded-md hover:bg-fma-gray transition-colors;
+}
+.card {
+  @apply bg-fma-black-2 border border-fma-gray rounded-lg p-4;
+}

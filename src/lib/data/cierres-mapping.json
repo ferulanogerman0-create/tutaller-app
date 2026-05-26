@@ -1,0 +1,5154 @@
+[
+  {
+    "comp": "0001-00000003",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-10-31 12:34:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000004",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-03 08:16:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000005",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-03 09:13:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000006",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-05 10:39:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000007",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-03 10:49:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000011",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-08 16:02:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000012",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-08 16:06:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000013",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-08 18:17:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000014",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-08 09:51:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000015",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-10 17:02:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000016",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-11 14:43:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000017",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-15 11:33:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000019",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-18 18:16:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000020",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-24 15:39:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000021",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-24 15:59:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000022",
+    "caja": "1",
+    "estado": "0",
+    "fechaEmision": "2022-11-29 14:30:00",
+    "fechaCierre": "2022-12-02"
+  },
+  {
+    "comp": "0001-00000023",
+    "caja": "2",
+    "estado": "0",
+    "fechaEmision": "2022-12-07 17:47:00",
+    "fechaCierre": "2023-06-19"
+  },
+  {
+    "comp": "0001-00000024",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-19 17:48:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000025",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-19 18:10:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000026",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-19 18:16:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000027",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-19 18:23:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000028",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-19 18:25:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000029",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-19 18:36:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000030",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-06-19 18:48:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000033",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-23 17:43:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000034",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-28 14:27:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000035",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-06-28 14:46:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000036",
+    "caja": "3",
+    "estado": "0",
+    "fechaEmision": "2023-05-19 17:11:00",
+    "fechaCierre": "2023-07-03"
+  },
+  {
+    "comp": "0001-00000037",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-06-30 10:46:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000038",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-03 15:40:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000040",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-05 16:23:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000041",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-06 17:05:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000042",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-10 08:25:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000043",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-11 17:10:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000044",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-10 17:00:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000045",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-17 17:35:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000046",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-21 08:33:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000047",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-24 09:55:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000050",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-26 08:32:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000051",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-26 08:35:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000052",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-27 09:49:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000053",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-31 09:54:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000054",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-07-31 11:01:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000055",
+    "caja": "4",
+    "estado": "0",
+    "fechaEmision": "2023-08-02 15:20:00",
+    "fechaCierre": "2023-08-03"
+  },
+  {
+    "comp": "0001-00000056",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-03 12:43:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000057",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-04 10:21:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000058",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-05 08:32:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000060",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-09 14:13:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000061",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-10 17:52:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000063",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-11 12:05:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000064",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-15 15:35:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000065",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-15 15:42:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000066",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-15 15:49:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000067",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-15 15:54:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000068",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-16 15:40:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000070",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-16 15:44:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000071",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-16 15:50:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000072",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-23 14:46:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000073",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-24 14:51:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000074",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-25 09:30:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000075",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-31 14:39:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000076",
+    "caja": "5",
+    "estado": "0",
+    "fechaEmision": "2023-08-31 15:17:00",
+    "fechaCierre": "2023-09-04"
+  },
+  {
+    "comp": "0001-00000077",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-04 15:00:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000078",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-04 15:03:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000079",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-04 17:58:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000080",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-05 18:03:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000081",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-06 15:16:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000082",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-13 11:03:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000084",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-14 10:34:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000085",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-14 18:55:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000086",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-18 10:49:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000087",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-22 15:09:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000088",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-22 15:12:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000089",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-25 09:31:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000090",
+    "caja": "6",
+    "estado": "0",
+    "fechaEmision": "2023-09-25 09:38:00",
+    "fechaCierre": "2023-10-05"
+  },
+  {
+    "comp": "0001-00000118",
+    "caja": "7",
+    "estado": "0",
+    "fechaEmision": "2023-11-27 16:53:00",
+    "fechaCierre": "2023-12-05"
+  },
+  {
+    "comp": "0001-00000119",
+    "caja": "7",
+    "estado": "0",
+    "fechaEmision": "2023-11-27 16:54:00",
+    "fechaCierre": "2023-12-05"
+  },
+  {
+    "comp": "0001-00000120",
+    "caja": "7",
+    "estado": "0",
+    "fechaEmision": "2023-11-28 17:17:00",
+    "fechaCierre": "2023-12-05"
+  },
+  {
+    "comp": "0001-00000121",
+    "caja": "7",
+    "estado": "0",
+    "fechaEmision": "2023-11-28 17:23:00",
+    "fechaCierre": "2023-12-05"
+  },
+  {
+    "comp": "0001-00000122",
+    "caja": "7",
+    "estado": "0",
+    "fechaEmision": "2023-12-02 09:38:00",
+    "fechaCierre": "2023-12-05"
+  },
+  {
+    "comp": "0001-00000123",
+    "caja": "7",
+    "estado": "0",
+    "fechaEmision": "2023-12-05 15:30:00",
+    "fechaCierre": "2023-12-05"
+  },
+  {
+    "comp": "0001-00000124",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-05 15:50:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000125",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-07 14:42:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000126",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-07 14:45:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000127",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-07 14:57:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000128",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-12 15:55:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000129",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-13 12:05:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000130",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-13 12:11:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000131",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-14 14:55:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000132",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-15 17:39:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000133",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-18 11:40:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000134",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-18 15:13:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000135",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-18 15:17:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000136",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-18 15:30:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000137",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-19 16:59:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000138",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-19 17:04:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000139",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-19 18:39:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000140",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-22 16:54:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000141",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-26 15:49:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000142",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-26 15:53:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000143",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-26 16:53:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000144",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2023-12-29 10:49:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000145",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-02 11:32:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000146",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-02 11:40:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000147",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-05 16:06:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000148",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-08 14:59:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000149",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-09 17:53:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000150",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-10 15:31:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000151",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-10 15:52:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000152",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-12 15:49:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000153",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-17 11:35:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000155",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-17 11:39:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000156",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-18 17:30:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000157",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-18 17:34:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000158",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-24 12:22:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000159",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-24 12:29:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000160",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-25 16:45:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000161",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-25 16:49:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000162",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-26 15:17:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000163",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-29 19:16:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000164",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-01-31 16:41:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000165",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-01 10:35:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000166",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-02 11:17:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000167",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-05 17:10:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000168",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-05 17:15:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000169",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-06 09:53:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000170",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-07 15:14:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000171",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-07 16:40:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000172",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-15 10:20:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000174",
+    "caja": "8",
+    "estado": "0",
+    "fechaEmision": "2024-02-16 11:25:00",
+    "fechaCierre": "2024-03-08"
+  },
+  {
+    "comp": "0001-00000175",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-08 17:31:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000176",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-09 10:23:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000178",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-09 10:45:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000179",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-09 11:56:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000180",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-11 15:41:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000181",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-13 09:28:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000182",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-15 10:13:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000183",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-16 10:28:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000184",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-19 16:26:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000185",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-20 11:43:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000186",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-21 10:48:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000187",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-22 13:36:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000188",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-26 14:52:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000189",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-30 16:58:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000190",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-30 17:02:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000191",
+    "caja": "9",
+    "estado": "0",
+    "fechaEmision": "2024-03-30 17:19:00",
+    "fechaCierre": "2024-04-10"
+  },
+  {
+    "comp": "0001-00000192",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-08 10:01:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000193",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-11 15:26:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000194",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-11 15:31:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000195",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-11 16:32:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000197",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-12 17:09:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000198",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-15 09:58:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000199",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-15 16:24:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000200",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-18 14:32:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000201",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-19 16:10:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000203",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-24 15:15:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000204",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-24 15:19:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000205",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-24 15:22:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000206",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-25 17:17:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000208",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-26 16:48:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000209",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-29 14:30:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000210",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-04-30 17:02:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000211",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-05-03 09:46:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000212",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-05-03 10:08:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000213",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-05-03 17:02:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000214",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-05-06 16:17:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000215",
+    "caja": "10",
+    "estado": "0",
+    "fechaEmision": "2024-05-06 16:26:00",
+    "fechaCierre": "2024-05-08"
+  },
+  {
+    "comp": "0001-00000216",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-06 16:31:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000217",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-06 16:41:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000218",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-09 17:21:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000219",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-09 17:27:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000220",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-14 10:11:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000221",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-14 15:16:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000222",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-16 18:55:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000223",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-17 15:27:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000224",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-21 10:49:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000225",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-21 10:52:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000226",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-22 15:16:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000227",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-31 15:38:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000228",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-31 15:43:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000229",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-31 16:21:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000230",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-05-31 16:24:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000231",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-06-03 09:56:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000232",
+    "caja": "11",
+    "estado": "0",
+    "fechaEmision": "2024-06-03 09:58:00",
+    "fechaCierre": "2024-06-28"
+  },
+  {
+    "comp": "0001-00000233",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-04 13:35:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000234",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-04 13:41:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000235",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-05 16:28:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000236",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-07 15:38:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000237",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-07 16:42:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000238",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-14 14:05:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000239",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-17 11:42:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000240",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-21 14:45:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000241",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-21 14:47:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000243",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-28 12:10:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000244",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-06-28 16:39:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000245",
+    "caja": "12",
+    "estado": "0",
+    "fechaEmision": "2024-07-03 16:14:00",
+    "fechaCierre": "2024-07-05"
+  },
+  {
+    "comp": "0001-00000246",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-05 16:09:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000248",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-06 10:56:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000249",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-17 16:06:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000250",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-17 16:22:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000251",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-17 16:32:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000252",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-17 16:36:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000253",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-17 16:51:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000254",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-18 15:56:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000255",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-24 10:34:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000256",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-24 18:51:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000257",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-25 17:06:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000258",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-29 10:28:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000260",
+    "caja": "13",
+    "estado": "0",
+    "fechaEmision": "2024-07-30 10:50:00",
+    "fechaCierre": "2024-08-14"
+  },
+  {
+    "comp": "0001-00000261",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-07-30 10:56:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000262",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-03 09:58:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000263",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-03 10:01:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000264",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-08-05 14:42:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000265",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-05 14:44:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000266",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-05 14:45:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000268",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-05 16:03:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000269",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-06 17:05:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000270",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-08 11:24:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000271",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-08 11:35:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000273",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-08 18:07:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000274",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-12 17:10:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000275",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-12 17:25:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000277",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-08-12 11:42:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000280",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-16 16:15:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000281",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-19 14:48:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000282",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-19 14:49:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000283",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-08-19 14:50:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000284",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-19 14:53:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000285",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-08-19 14:56:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000286",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-19 14:57:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000288",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-21 16:22:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000290",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-08-26 16:45:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000291",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-08-27 10:50:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000292",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-27 10:55:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000293",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-08-27 11:30:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000296",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-28 17:13:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000297",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-28 17:18:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000298",
+    "caja": "14",
+    "estado": "0",
+    "fechaEmision": "2024-08-29 12:17:00",
+    "fechaCierre": "2024-09-04"
+  },
+  {
+    "comp": "0001-00000299",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-03 09:33:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000301",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-05 09:38:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000302",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-05 09:50:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000303",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-06 17:51:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000304",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-11 10:31:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000305",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-11 10:34:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000306",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-11 10:36:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000309",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-12 13:18:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000310",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-17 15:45:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000311",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-17 17:18:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000312",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-20 12:31:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000313",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-20 14:53:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000314",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-24 17:19:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000315",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-24 17:22:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000316",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-24 17:30:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000317",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-24 17:34:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000318",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-09-26 14:38:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000320",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-10-01 15:05:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000321",
+    "caja": "15",
+    "estado": "0",
+    "fechaEmision": "2024-10-01 17:39:00",
+    "fechaCierre": "2024-10-02"
+  },
+  {
+    "comp": "0001-00000323",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-03 16:31:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000324",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-03 16:33:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000325",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-03 16:34:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000327",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-07 10:21:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000328",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-07 10:22:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000330",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-08 10:39:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000331",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-09 16:40:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000332",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-09 16:42:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000333",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-09 18:02:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000334",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-09 18:04:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000336",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-09 18:07:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000337",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-10 12:41:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000338",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-15 11:40:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000339",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-17 09:36:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000340",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-17 09:39:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000341",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-21 11:58:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000342",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-21 12:04:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000343",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-22 13:48:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000344",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-22 16:57:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000345",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-24 10:11:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000346",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-25 11:39:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000347",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-25 12:30:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000348",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-25 12:32:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000349",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-28 16:46:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000351",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-29 12:11:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000352",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-10-29 12:12:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000355",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2024-11-05 11:06:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000356",
+    "caja": "16",
+    "estado": "0",
+    "fechaEmision": "2024-11-05 11:08:00",
+    "fechaCierre": "2024-11-28"
+  },
+  {
+    "comp": "0001-00000357",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-05 11:14:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000358",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-05 11:28:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000359",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-06 18:22:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000360",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 10:58:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000361",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 10:59:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000362",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 11:00:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000363",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 11:04:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000364",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 11:04:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000365",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 11:06:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000366",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 11:10:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000367",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2024-11-13 11:11:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000370",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-19 10:10:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000373",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-20 15:16:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000375",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-21 17:42:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000376",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-21 17:43:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000377",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-27 13:21:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000378",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-11-27 14:43:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000379",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-27 14:44:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000380",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-11-27 14:45:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000381",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-11-27 14:48:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000383",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-02 09:55:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000384",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-02 09:57:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000386",
+    "caja": "17",
+    "estado": "0",
+    "fechaEmision": "2024-12-02 12:34:00",
+    "fechaCierre": "2024-12-03"
+  },
+  {
+    "comp": "0001-00000387",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-03 12:46:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000388",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-03 12:46:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000389",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-03 12:51:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000390",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-09 09:57:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000391",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-12 15:03:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000392",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2024-12-12 15:05:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000393",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-12 17:07:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000394",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-16 15:23:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000395",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-16 15:42:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000396",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-16 16:50:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000397",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-17 11:43:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000398",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-17 11:45:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000400",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-20 16:02:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000401",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2024-12-23 09:32:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000402",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-23 17:11:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000403",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-26 12:31:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000405",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-27 11:24:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000407",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-27 12:26:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000409",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-27 16:20:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000411",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2024-12-30 11:35:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000412",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2025-01-02 09:50:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000413",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-02 09:58:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000414",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2025-01-02 17:03:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000415",
+    "caja": "18",
+    "estado": "0",
+    "fechaEmision": "2025-01-03 15:07:00",
+    "fechaCierre": "2025-01-06"
+  },
+  {
+    "comp": "0001-00000416",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-06 09:51:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000417",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-06 12:37:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000418",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-07 09:51:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000419",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-07 09:54:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000420",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-07 15:40:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000422",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-08 13:28:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000423",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-09 14:51:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000424",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-10 09:46:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000426",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-13 09:52:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000427",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-13 09:53:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000428",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-13 11:26:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000429",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-14 08:20:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000430",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-14 08:29:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000431",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-14 13:34:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000432",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-14 15:12:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000433",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-15 11:00:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000434",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-16 08:19:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000435",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-17 11:06:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000436",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-28 07:00:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000437",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-18 09:29:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000438",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-18 09:34:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000439",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-20 09:43:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000440",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-20 09:49:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000441",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-20 10:23:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000442",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-21 10:45:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000443",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-21 10:58:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000445",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-01-29 14:09:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000446",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-03 07:29:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000450",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-23 13:29:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000452",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-24 08:38:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000453",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-24 08:52:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000454",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-24 09:09:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000455",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-04 07:30:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000456",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-27 08:26:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000457",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-01-27 10:37:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000461",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-06 07:30:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000463",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-01-28 14:23:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000466",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-10 07:00:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000467",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-01-31 09:45:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000468",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-01-31 10:20:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000470",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-01-31 11:27:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000471",
+    "caja": "19",
+    "estado": "0",
+    "fechaEmision": "2025-02-03 08:52:00",
+    "fechaCierre": "2025-02-03"
+  },
+  {
+    "comp": "0001-00000472",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-04 08:02:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000473",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-04 08:47:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000474",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-02-05 08:38:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000475",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-05 11:53:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000477",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-13 07:00:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000478",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-06 09:30:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000479",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-06 11:28:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000482",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-07 12:38:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000484",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-07 15:05:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000486",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-18 07:06:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000488",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-14 07:00:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000490",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-12 15:10:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000491",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-14 10:43:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000492",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-02-20 07:00:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000494",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-17 09:33:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000496",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-18 14:11:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000501",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-20 14:56:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000502",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-27 07:00:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000504",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-02-21 15:07:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000505",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-22 08:37:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000506",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-22 10:00:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000507",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-24 15:12:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000508",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-25 15:39:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000509",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-27 08:04:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000511",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-02-28 10:18:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000512",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-02-28 10:25:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000513",
+    "caja": "20",
+    "estado": "0",
+    "fechaEmision": "2025-03-06 15:47:00",
+    "fechaCierre": "2025-03-10"
+  },
+  {
+    "comp": "0001-00000515",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-11 07:00:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000517",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-11 07:00:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000519",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-14 07:00:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000520",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-10 15:07:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000525",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-14 15:01:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000527",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-21 07:00:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000528",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-03-21 08:00:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000529",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-18 10:27:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000530",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-18 11:37:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000531",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-18 11:58:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000532",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-18 14:42:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000536",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-03-20 14:15:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000539",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-03-31 07:30:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000541",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-21 10:26:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000545",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-04-01 07:30:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000546",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-31 07:30:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000547",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-26 10:23:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000549",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-28 15:57:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000550",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-28 16:05:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000551",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-04-03 16:33:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000552",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-03-31 09:47:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000553",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-02 07:30:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000554",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-01 11:39:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000555",
+    "caja": "21",
+    "estado": "0",
+    "fechaEmision": "2025-04-04 14:44:00",
+    "fechaCierre": "2025-04-08"
+  },
+  {
+    "comp": "0001-00000556",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-07 14:17:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000557",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-04-08 08:20:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000558",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-04-08 08:24:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000559",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-09 10:56:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000560",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-04-15 14:05:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000561",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-10 10:54:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000562",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-11 13:20:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000563",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-11 15:05:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000564",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-04-25 07:30:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000565",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-15 11:16:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000568",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-23 14:52:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000569",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-24 10:11:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000570",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-28 07:00:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000572",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-24 13:58:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000573",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-04-28 14:20:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000574",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-05-05 10:09:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000576",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-05-05 13:33:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000577",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-05-06 10:16:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000578",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-04 07:00:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000581",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-05-15 07:00:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000583",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-07 10:11:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000584",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-05-08 09:53:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000586",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-05-08 10:49:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000587",
+    "caja": "22",
+    "estado": "0",
+    "fechaEmision": "2025-05-09 11:45:00",
+    "fechaCierre": "2025-05-12"
+  },
+  {
+    "comp": "0001-00000588",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-09 13:03:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000590",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-13 13:15:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000591",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-14 09:55:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000592",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-14 13:14:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000593",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-19 11:15:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000594",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-19 13:08:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000595",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-03 07:00:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000596",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-22 09:42:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000597",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-26 07:24:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000598",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-23 14:48:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000606",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-27 13:18:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000607",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-06-16 11:48:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000609",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-05-29 13:38:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000610",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-06-02 10:31:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000611",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-06-02 10:33:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000613",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-06-04 11:02:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000615",
+    "caja": "23",
+    "estado": "0",
+    "fechaEmision": "2025-06-06 11:24:00",
+    "fechaCierre": "2025-06-06"
+  },
+  {
+    "comp": "0001-00000616",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-09 07:00:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000617",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-06 15:30:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000619",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-10 13:13:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000621",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-11 13:57:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000623",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-26 07:00:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000626",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-25 14:37:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000628",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-23 10:45:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000629",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-06-23 11:03:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000630",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-23 13:50:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000631",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-23 13:50:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000632",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-24 10:07:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000633",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-24 10:14:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000634",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-24 15:26:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000635",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-24 15:47:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000637",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-25 11:08:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000638",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-08 16:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000639",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-07-02 07:00:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000640",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-26 11:07:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000641",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-27 14:25:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000642",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-06-30 13:39:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000643",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-07-01 11:54:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000645",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-14 07:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000647",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-03 11:17:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000648",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-07-03 11:20:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000649",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-07-03 11:30:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000652",
+    "caja": "24",
+    "estado": "0",
+    "fechaEmision": "2025-07-07 10:56:00",
+    "fechaCierre": "2025-07-08"
+  },
+  {
+    "comp": "0001-00000653",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-10 11:19:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000654",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-10 13:21:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000655",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-10 15:22:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000656",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-11 11:33:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000657",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-07-28 11:40:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000660",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-17 08:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000662",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-21 07:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000665",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-25 07:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000666",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-07-14 15:43:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000667",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-16 08:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000669",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-15 14:08:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000670",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-15 15:47:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000671",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-23 07:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000673",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-07-17 13:23:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000674",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-18 16:23:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000676",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-21 07:54:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000677",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-22 07:59:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000678",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-21 13:32:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000679",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-07-21 13:46:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000680",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-22 11:46:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000681",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-24 14:27:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000682",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-29 08:03:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000683",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-28 09:23:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000684",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-28 11:51:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000686",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-07-28 14:38:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000687",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-29 11:27:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000688",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-30 10:27:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000690",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-08-04 11:03:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000691",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-30 13:38:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000692",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-31 14:03:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000694",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-11 15:45:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000695",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-07-31 16:00:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000696",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-08-13 07:00:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000698",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-08-05 11:08:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000699",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-18 07:40:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000700",
+    "caja": "25",
+    "estado": "0",
+    "fechaEmision": "2025-08-06 10:39:00",
+    "fechaCierre": "2025-08-06"
+  },
+  {
+    "comp": "0001-00000701",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-07 15:51:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000702",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-07 15:53:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000703",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-08 11:01:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000704",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-08 16:15:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000705",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-11 12:19:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000706",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-12 14:22:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000707",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-12 14:49:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000708",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-13 13:33:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000709",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-14 11:43:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000710",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-15 10:32:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000712",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-18 11:09:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000713",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-18 15:14:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000715",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-19 15:36:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000716",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-20 10:30:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000717",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-20 11:35:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000720",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-26 10:04:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000721",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-26 15:50:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000722",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-09-01 07:00:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000724",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-08-27 14:58:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000725",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-28 15:26:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000726",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-29 12:00:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000727",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-08-29 16:25:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000728",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-09-02 11:59:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000729",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-09-03 12:52:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000730",
+    "caja": "26",
+    "estado": "0",
+    "fechaEmision": "2025-09-03 13:53:00",
+    "fechaCierre": "2025-09-09"
+  },
+  {
+    "comp": "0001-00000731",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-10 07:00:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000733",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-04 10:46:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000735",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-17 07:30:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000737",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-09-09 10:57:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000738",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-09 11:39:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000739",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-10 11:21:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000740",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-10 11:26:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000742",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-15 14:21:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000744",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-16 13:54:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000745",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-18 13:25:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000746",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-19 11:14:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000747",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-19 13:01:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000748",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-19 13:03:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000749",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-09-24 09:52:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000751",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-24 13:46:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000752",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-06 10:21:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000754",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-10-09 06:30:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000756",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-09-30 10:46:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000757",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-10-02 14:37:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000758",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-02 15:53:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000759",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-10-03 10:01:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000762",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-10-06 12:55:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000763",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-10-07 10:20:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000765",
+    "caja": "27",
+    "estado": "0",
+    "fechaEmision": "2025-10-09 10:23:00",
+    "fechaCierre": "2025-10-09"
+  },
+  {
+    "comp": "0001-00000766",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-20 07:54:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000767",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-14 13:28:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000768",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-16 13:03:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000769",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-16 14:05:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000770",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-10-30 07:45:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000771",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-21 13:29:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000772",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-22 15:55:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000773",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-10 07:20:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000774",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-27 09:55:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000775",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-27 09:58:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000776",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2025-10-27 10:02:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000777",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-27 15:30:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000778",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-29 10:05:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000779",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-29 10:09:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000780",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-12 11:34:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000782",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-30 14:02:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000783",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-10-31 11:30:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000784",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-11-03 10:48:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000785",
+    "caja": "28",
+    "estado": "0",
+    "fechaEmision": "2025-11-04 13:29:00",
+    "fechaCierre": "2025-11-05"
+  },
+  {
+    "comp": "0001-00000786",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-04 15:57:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000787",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-05 15:48:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000788",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-06 13:49:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000789",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-06 13:51:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000790",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-07 13:53:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000792",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-11 11:19:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000794",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-12 10:17:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000795",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-13 13:40:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000796",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-13 13:44:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000797",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-13 14:03:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000798",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-14 12:23:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000799",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-18 14:08:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000800",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-18 14:43:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000801",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-19 14:48:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000802",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-20 11:30:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000806",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-25 09:36:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000807",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-11-25 09:54:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000808",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-25 15:45:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000809",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-26 10:48:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000810",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-27 10:02:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000811",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-27 10:41:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000812",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-11-27 13:39:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000813",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-28 12:03:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000814",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-28 12:14:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000815",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-11-28 12:16:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000816",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-12-01 15:22:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000817",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-12-04 11:31:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000818",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-12-05 11:28:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000819",
+    "caja": "29",
+    "estado": "0",
+    "fechaEmision": "2025-12-09 07:44:00",
+    "fechaCierre": "2025-12-09"
+  },
+  {
+    "comp": "0001-00000820",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2025-12-09 14:59:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000822",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-11 11:52:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000823",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-12 10:32:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000826",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-15 11:42:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000828",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2025-12-16 15:55:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000829",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-16 15:55:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000830",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-16 16:01:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000831",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-17 10:20:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000832",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-17 13:38:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000833",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-17 14:51:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000835",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-19 10:16:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000836",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-22 11:06:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000837",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-22 11:09:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000838",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-23 10:20:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000839",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2025-12-26 14:20:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000840",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2025-12-29 10:22:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000841",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2025-12-29 11:41:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000842",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2025-12-30 10:12:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000843",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-02 13:48:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000845",
+    "caja": "30",
+    "estado": "0",
+    "fechaEmision": "2026-01-05 15:40:00",
+    "fechaCierre": "2026-01-06"
+  },
+  {
+    "comp": "0001-00000848",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-07 13:46:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000849",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-07 13:55:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000851",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-13 09:42:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000852",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-13 09:53:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000853",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-15 10:43:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000854",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-15 12:24:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000855",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-16 09:55:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000857",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-19 13:33:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000858",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-20 14:01:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000859",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-20 14:03:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000860",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-20 14:04:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000861",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-01-20 14:15:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000862",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-20 15:01:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000863",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-22 11:22:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000864",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-23 13:32:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000865",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-26 11:20:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000866",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-26 13:07:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000867",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-27 09:57:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000868",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-28 13:25:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000869",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-01-29 14:42:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000870",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-03 14:05:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000871",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-03 14:51:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000872",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-06 10:38:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000873",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-06 10:40:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000874",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-06 11:26:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000875",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-02-06 11:32:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000876",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-06 13:52:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000877",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-09 10:23:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000878",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-09 15:49:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000879",
+    "caja": "31",
+    "estado": "0",
+    "fechaEmision": "2026-02-10 10:18:00",
+    "fechaCierre": "2026-02-13"
+  },
+  {
+    "comp": "0001-00000881",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-02-11 14:11:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000882",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-02-11 16:17:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000883",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-02-12 13:56:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000884",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-02-24 15:47:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000885",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-02 10:17:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000886",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-02 10:17:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000887",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-05 10:28:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000888",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-06 13:34:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000889",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-06 13:50:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000891",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-10 14:18:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000892",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-12 11:47:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000893",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-13 10:30:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000894",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-13 16:08:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000895",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-17 10:44:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000896",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-17 16:26:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000897",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-19 10:17:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000898",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-19 10:43:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000899",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-19 10:47:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000900",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-25 10:38:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000901",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-25 10:45:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000902",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-25 14:01:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000903",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-27 08:18:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000904",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-27 08:21:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000905",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-28 09:52:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000906",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-28 09:54:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000907",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-28 10:09:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000908",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-30 14:31:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000909",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-31 13:35:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000910",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-31 13:53:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000911",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-03-31 15:30:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000913",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-01 12:58:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000916",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-07 11:12:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000917",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-07 15:23:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000918",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-08 10:34:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000919",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-09 16:06:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000920",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-11 09:40:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000921",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-13 09:31:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000922",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-13 12:48:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000923",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-13 12:50:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000924",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-13 15:34:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000925",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-14 15:22:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000926",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-14 16:10:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000927",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-15 11:43:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000928",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-17 11:05:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000929",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-21 13:44:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000930",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-24 14:26:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000931",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-27 11:31:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000932",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-27 11:37:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000934",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-28 15:37:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000936",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-04-29 09:43:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000937",
+    "caja": "32",
+    "estado": "4",
+    "fechaEmision": "2026-04-29 09:52:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000938",
+    "caja": "32",
+    "estado": "4",
+    "fechaEmision": "2026-04-29 14:58:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000939",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-04 10:27:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000940",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-04 10:30:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000941",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-04 11:11:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000943",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-06 10:35:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000944",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-06 11:39:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000945",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-06 13:20:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000947",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-06 13:27:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000948",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-07 13:08:00",
+    "fechaCierre": "2026-05-11"
+  },
+  {
+    "comp": "0001-00000949",
+    "caja": "32",
+    "estado": "0",
+    "fechaEmision": "2026-05-07 14:08:00",
+    "fechaCierre": "2026-05-11"
+  }
+]
