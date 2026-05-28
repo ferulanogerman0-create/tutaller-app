@@ -85,10 +85,42 @@ export default async function DashboardHome({ params }: { params: Promise<{ slug
 
   const nombre = user.nombre.split(' ')[0] || 'Usuario';
 
+  const isNewTenant = clientes[0].c === 0 && vehiculos[0].c === 0;
+
   return (
     <div className="p-6">
       <h1 className="text-3xl font-bold text-fma-white mb-1">Hola, {nombre}</h1>
       <p className="text-fma-white-soft/60 mb-6">Resumen del taller</p>
+
+      {isNewTenant && (
+        <div className="mb-6 bg-fma-cyan/10 border border-fma-cyan/30 rounded-lg p-5">
+          <h2 className="text-fma-cyan font-bold text-lg mb-1">¡Bienvenido a TuTaller.app! 🎉</h2>
+          <p className="text-fma-white-soft/70 text-sm mb-4">Tu cuenta está lista. Completá estos pasos para empezar:</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+            <Link href={`${base}/configuracion`} className="flex items-start gap-3 bg-fma-black-2 rounded-md p-3 hover:border-fma-cyan border border-fma-gray transition-colors">
+              <span className="text-2xl">⚙️</span>
+              <div>
+                <p className="font-medium text-fma-white">1. Configurar taller</p>
+                <p className="text-fma-white-soft/50 text-xs">Nombre, teléfono, CUIT, logo</p>
+              </div>
+            </Link>
+            <Link href={`${base}/clientes/nuevo`} className="flex items-start gap-3 bg-fma-black-2 rounded-md p-3 hover:border-fma-cyan border border-fma-gray transition-colors">
+              <span className="text-2xl">👤</span>
+              <div>
+                <p className="font-medium text-fma-white">2. Agregar cliente</p>
+                <p className="text-fma-white-soft/50 text-xs">Primer cliente del taller</p>
+              </div>
+            </Link>
+            <Link href={`${base}/ordenes/nueva`} className="flex items-start gap-3 bg-fma-black-2 rounded-md p-3 hover:border-fma-cyan border border-fma-gray transition-colors">
+              <span className="text-2xl">🔧</span>
+              <div>
+                <p className="font-medium text-fma-white">3. Crear orden</p>
+                <p className="text-fma-white-soft/50 text-xs">Primera orden de trabajo</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
         <KpiCard label="Facturado hoy" value={`$${Number(factHoy[0]?.s || 0).toLocaleString('es-AR', { maximumFractionDigits: 0 })}`} icon={DollarSign} color="text-green-400" href={`${base}/ordenes`} />

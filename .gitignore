@@ -10,3 +10,10 @@ dist/
 build/
 .vscode/
 .idea/
+
+# debug artifacts
+patch_audio*.js
+patch_audio*.cjs
+test_body.json
+wf_*.json
+*.ps1

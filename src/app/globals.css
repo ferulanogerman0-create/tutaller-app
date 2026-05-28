@@ -26,3 +26,6 @@ html, body {
 .card {
   @apply bg-fma-black-2 border border-fma-gray rounded-lg p-4;
 }
+.input-field {
+  @apply bg-fma-black-3 border border-fma-gray-light rounded-md px-3 py-2 text-fma-white focus:outline-none focus:border-fma-cyan transition-colors;
+}

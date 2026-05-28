@@ -4,10 +4,12 @@ import { getAllConfig, setConfig } from '@/lib/actions/config';
 
 export const dynamic = 'force-dynamic';
 
-export default async function ConfiguracionPage() {
+export default async function ConfiguracionPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const base = `/${slug}/dashboard`;
   const me = await getSessionUser();
-  if (!me) redirect('/login');
-  if (me.role !== 'admin') redirect('/dashboard');
+  if (!me) redirect(`/${slug}/login`);
+  if (me.role !== 'owner' && me.role !== 'admin') redirect(base);
 
   const cfg = await getAllConfig();
 
