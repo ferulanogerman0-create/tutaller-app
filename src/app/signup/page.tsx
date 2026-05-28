@@ -63,7 +63,7 @@ export default function SignupPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-fma-white mb-2">TuTaller<span className="text-fma-cyan">.app</span></h1>
-          <p className="text-fma-white-soft/60 text-sm">14 días gratis · sin tarjeta de crédito</p>
+          <p className="text-fma-white-soft/60 text-sm">7 días gratis · sin tarjeta de crédito</p>
         </div>
 
         <form onSubmit={handleSubmit} className="card space-y-4">

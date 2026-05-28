@@ -13,6 +13,11 @@ const TENANT_PUBLIC = ['/login', '/r/', '/api/bot', '/api/cron'];
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // Static files (anything with a file extension, e.g. /3d/gear.png, /og.png) skip tenant logic
+  if (/\.[a-zA-Z0-9]+$/.test(pathname)) {
+    return NextResponse.next();
+  }
+
   // Root public paths skip tenant resolution
   if (ROOT_PUBLIC.some((p) => pathname === p || pathname.startsWith(p + '/'))) {
     return NextResponse.next();

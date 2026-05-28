@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     .where(eq(schema.tenants.slug, slug)).limit(1);
   if (existing) return NextResponse.json({ error: 'Ese nombre de taller ya está en uso' }, { status: 409 });
 
-  const trialEndsAt = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000);
+  const trialEndsAt = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
 
   const [tenant] = await db.insert(schema.tenants).values({
     slug: slug.toLowerCase(),
