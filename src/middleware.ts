@@ -4,7 +4,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 const ROOT_PUBLIC = [
   '/', '/login', '/signup', '/pricing', '/about', '/legal',
   '/_next', '/favicon.ico', '/robots.txt', '/sitemap.xml',
-  '/api/auth', '/api/signup', '/api/webhooks',
+  '/api/auth', '/api/signup', '/api/webhooks', '/api/billing',
 ];
 
 // Paths under /{slug}/... that are public even without session
@@ -32,6 +32,7 @@ export async function middleware(req: NextRequest) {
   // We pass slug to downstream via header; server components do the DB lookup using getTenantBySlug.
   const res = NextResponse.next();
   res.headers.set('x-tenant-slug', slug);
+  res.headers.set('x-pathname', pathname);
 
   // Tenant public paths (bot webhook, cron) skip session check
   const subPath = '/' + segs.slice(1).join('/');

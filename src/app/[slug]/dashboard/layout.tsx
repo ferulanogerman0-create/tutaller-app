@@ -1,6 +1,9 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
+import { headers } from 'next/headers';
 import { getSessionUser } from '@/lib/auth';
+import { getTenantById } from '@/lib/tenant';
+import { daysRemaining } from '@/lib/billing';
 import { FmaLogo } from '@/components/fma-logo';
 import { GlobalSearch } from '@/components/global-search';
 import { MobileSidebar } from '@/components/mobile-sidebar';
@@ -30,6 +33,7 @@ const NAV_DEFS = [
   { path: '/configuracion', label: 'Configuración', icon: Settings, roles: ['admin'] },
   { path: '/auditoria', label: 'Auditoría', icon: FileText, roles: ['admin'] },
   { path: '/admin/import', label: 'Importar DIRUP', icon: Settings, roles: ['admin'] },
+  { path: '/billing', label: 'Plan y facturación', icon: DollarSign, roles: ['owner'] },
 ];
 
 export default async function DashboardLayout({
@@ -44,6 +48,18 @@ export default async function DashboardLayout({
   if (!user) redirect(`/${slug}/login`);
 
   const base = `/${slug}/dashboard`;
+  const tenant = await getTenantById(user.tenantId);
+  const days = tenant ? daysRemaining(tenant.trialEndsAt) : 0;
+  const showTrialBanner = tenant?.plan === 'trial';
+
+  // Paywall: expired trial can only access billing page
+  if (tenant?.plan === 'trial' && days === 0) {
+    const h = await headers();
+    const pathname = h.get('x-pathname') || '';
+    if (!pathname.endsWith('/billing')) {
+      redirect(`/${slug}/dashboard/billing`);
+    }
+  }
 
   const visible = NAV_DEFS
     .filter((item) =>
@@ -104,7 +120,21 @@ export default async function DashboardLayout({
         {userFooter}
       </aside>
 
-      <main className="flex-1 overflow-y-auto pt-14 md:pt-0">{children}</main>
+      <main className="flex-1 overflow-y-auto pt-14 md:pt-0">
+        {showTrialBanner && (
+          <div className={`px-4 py-2 text-xs flex items-center justify-between gap-2 ${days <= 3 ? 'bg-red-900/50 border-b border-red-500/30 text-red-300' : 'bg-orange-900/40 border-b border-orange-500/30 text-orange-300'}`}>
+            <span>
+              {days === 0
+                ? '⚠ Tu período de prueba venció. Activá un plan para seguir usando TuTaller.'
+                : `⏳ Trial: ${days} día${days === 1 ? '' : 's'} restante${days === 1 ? '' : 's'}.`}
+            </span>
+            <Link href={`/${slug}/dashboard/billing`} className="font-semibold underline whitespace-nowrap hover:text-white">
+              Ver planes →
+            </Link>
+          </div>
+        )}
+        {children}
+      </main>
     </div>
   );
 }
