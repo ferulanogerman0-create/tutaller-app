@@ -1,7 +1,7 @@
 'use client';
 import { useParams, useSearchParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import { PLANS, type PlanKey } from '@/lib/billing';
+import { PLANS, type PlanKey } from '@/lib/plans';
 
 type TenantInfo = {
   plan: string;
