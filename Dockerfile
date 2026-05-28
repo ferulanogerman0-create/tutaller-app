@@ -21,6 +21,7 @@ RUN useradd -r -u 1001 -m -d /home/nextjs nextjs
 # Standalone output (incluye node_modules necesarios para runtime)
 COPY --from=builder --chown=nextjs:nextjs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nextjs /app/.next/static ./.next/static
+COPY --from=builder --chown=nextjs:nextjs /app/public ./public
 # Migrations + scripts (todo node_modules incluido para correr tsx)
 COPY --from=builder --chown=nextjs:nextjs /app/drizzle ./drizzle
 COPY --from=builder --chown=nextjs:nextjs /app/scripts ./scripts
