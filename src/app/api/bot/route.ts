@@ -11,7 +11,7 @@ type Action =
   | 'searchClientes' | 'createCliente' | 'updateCliente'
   | 'searchVehiculos' | 'createVehiculo' | 'updateVehiculo'
   | 'searchInventario' | 'createInventarioItem' | 'updateInventarioItem' | 'ajustarStock'
-  | 'createOrden' | 'getOrden' | 'getOrdenByComprobante' | 'listOrdenes' | 'setEstado' | 'updateOrden'
+  | 'createOrden' | 'getOrden' | 'getOrdenByComprobante' | 'listOrdenes' | 'getEntregasHoy' | 'setEstado' | 'updateOrden'
   | 'addItem' | 'updateItem' | 'removeItem'
   | 'registrarPago'
   | 'createRecordatorio' | 'listRecordatorios' | 'completarRecordatorio'
@@ -263,6 +263,27 @@ export async function POST(req: Request) {
         if (estado) conds.push(eq(schema.ordenes.estado, estado as never));
         const rows = await db.select().from(schema.ordenes).where(and(...conds)).orderBy(desc(schema.ordenes.id)).limit(p.limit || 20);
         return NextResponse.json({ results: rows });
+      }
+
+      case 'getEntregasHoy': {
+        const hoyArg = sql`(NOW() AT TIME ZONE 'America/Argentina/Buenos_Aires')::date`;
+        const rows = await db.select().from(schema.ordenes).where(
+          and(
+            eq(schema.ordenes.tenantId, tenantId),
+            eq(schema.ordenes.estado, 'entregado'),
+            sql`(
+              (${schema.ordenes.fechaEgreso} IS NOT NULL AND DATE(${schema.ordenes.fechaEgreso} AT TIME ZONE 'America/Argentina/Buenos_Aires') = ${hoyArg})
+              OR
+              (${schema.ordenes.fechaEgreso} IS NULL AND DATE(${schema.ordenes.updatedAt} AT TIME ZONE 'America/Argentina/Buenos_Aires') = ${hoyArg} AND ${schema.ordenes.fechaIngreso} >= NOW() - INTERVAL '2 days')
+            )`
+          )
+        ).orderBy(desc(schema.ordenes.updatedAt));
+        const results = await Promise.all(rows.map(async (o) => {
+          const cliente = o.clienteId ? (await db.select({ nombre: schema.clientes.nombre }).from(schema.clientes).where(and(eq(schema.clientes.id, o.clienteId), eq(schema.clientes.tenantId, tenantId))).limit(1))[0] : null;
+          const vehiculo = o.vehiculoId ? (await db.select({ dominio: schema.vehiculos.dominio, marca: schema.vehiculos.marca, modelo: schema.vehiculos.modelo }).from(schema.vehiculos).where(and(eq(schema.vehiculos.id, o.vehiculoId), eq(schema.vehiculos.tenantId, tenantId))).limit(1))[0] : null;
+          return { ...o, clienteNombre: cliente?.nombre ?? null, vehiculoDominio: vehiculo?.dominio ?? null, vehiculoMarca: vehiculo?.marca ?? null, vehiculoModelo: vehiculo?.modelo ?? null };
+        }));
+        return NextResponse.json({ results, total: results.length });
       }
 
       case 'setEstado': {

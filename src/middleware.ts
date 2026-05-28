@@ -8,7 +8,7 @@ const ROOT_PUBLIC = [
 ];
 
 // Paths under /{slug}/... that are public even without session
-const TENANT_PUBLIC = ['/r/', '/api/bot', '/api/cron'];
+const TENANT_PUBLIC = ['/login', '/r/', '/api/bot', '/api/cron'];
 
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
