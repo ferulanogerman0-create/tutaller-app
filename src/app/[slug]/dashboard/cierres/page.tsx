@@ -11,7 +11,7 @@ export default async function CierresPage({ params }: { params: Promise<{ slug: 
   const base = `/${slug}/dashboard`;
   const me = await getSessionUser();
   if (!me) redirect(`/${slug}/login`);
-  if (me.role !== 'admin' && me.role !== 'contable' && me.role !== 'recepcion') redirect(base);
+  if (me.role !== 'admin' && me.role !== 'owner' && me.role !== 'contable' && me.role !== 'recepcion') redirect(base);
 
   const cierres = await listCierres(100);
 

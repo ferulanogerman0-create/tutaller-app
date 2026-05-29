@@ -8,7 +8,7 @@ export const runtime = 'nodejs';
 export async function GET(req: Request) {
   const me = await getSessionUser();
   if (!me) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
-  if (me.role !== 'admin' && me.role !== 'contable') {
+  if (me.role !== 'admin' && me.role !== 'owner' && me.role !== 'contable') {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 

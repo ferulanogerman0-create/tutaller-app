@@ -43,7 +43,7 @@ export default async function FinanzasPage({ params, searchParams }: { params: P
   const base = `/${slug}/dashboard`;
   const me = await getSessionUser();
   if (!me) redirect(`/${slug}/login`);
-  if (me.role !== 'admin' && me.role !== 'contable') redirect(base);
+  if (me.role !== 'admin' && me.role !== 'owner' && me.role !== 'contable') redirect(base);
 
   const sp = await searchParams;
   const hoy = new Date(); hoy.setHours(23, 59, 59, 999);
