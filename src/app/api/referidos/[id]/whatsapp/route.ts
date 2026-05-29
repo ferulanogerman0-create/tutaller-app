@@ -32,12 +32,13 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
   const mensaje = body.mensaje?.trim();
   if (!mensaje) return NextResponse.json({ error: 'mensaje vacío' }, { status: 400 });
 
-  // Envío texto via Evolution
+  // Envío texto via Evolution — SIEMPRE instancia propia del tenant (multi-tenant, nunca global)
   const evoUrl = process.env.EVOLUTION_API_URL;
   const evoKey = process.env.EVOLUTION_API_KEY;
-  const evoInst = process.env.EVOLUTION_INSTANCE;
+  const [tenant] = await db.select({ evo: schema.tenants.evoInstanceName }).from(schema.tenants).where(eq(schema.tenants.id, me.tenantId)).limit(1);
+  const evoInst = tenant?.evo || '';
   if (!evoUrl || !evoKey || !evoInst) {
-    return NextResponse.json({ error: 'Evolution no configurado' }, { status: 500 });
+    return NextResponse.json({ error: 'Tu taller no tiene WhatsApp conectado (plan Bot). Configuralo en Ajustes.' }, { status: 400 });
   }
 
   const resp = await fetch(`${evoUrl.replace(/\/$/, '')}/message/sendText/${evoInst}`, {

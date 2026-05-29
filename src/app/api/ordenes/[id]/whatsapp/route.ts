@@ -22,6 +22,10 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
   });
   if (!orden) return NextResponse.json({ error: 'orden not found' }, { status: 404 });
 
+  const [tenant] = await db.select({ evo: schema.tenants.evoInstanceName }).from(schema.tenants).where(eq(schema.tenants.id, user.tenantId)).limit(1);
+  const instance = tenant?.evo || '';
+  if (!instance) return NextResponse.json({ error: 'Tu taller todavía no tiene WhatsApp conectado. Configuralo en Ajustes (plan Bot).' }, { status: 400 });
+
   const phonePrimary = getTelefonoNormalizado(orden.cliente?.telefono);
   const phoneAlt = getTelefonoNormalizado(orden.cliente?.telefonoAlt);
   if (!phonePrimary && !phoneAlt) return NextResponse.json({ error: 'Cliente sin teléfono cargado. Editá los datos del cliente.' }, { status: 400 });
@@ -37,7 +41,7 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
   let lastError = '';
   for (const phone of candidates) {
     const result = await enviarWhatsApp({
-      phone, caption: mensaje, pdfBase64,
+      phone, caption: mensaje, pdfBase64, instance,
       fileName: `orden-${orden.comprobante}.pdf`,
       meta: { ordenId: oid, comprobante: orden.comprobante, clienteId: orden.clienteId },
     });

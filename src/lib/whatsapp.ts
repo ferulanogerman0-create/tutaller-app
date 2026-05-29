@@ -7,6 +7,7 @@ export type WhatsAppPayload = {
   caption: string;          // texto del mensaje
   pdfBase64: string;        // PDF en base64
   fileName: string;
+  instance: string;         // instancia Evolution PROPIA del tenant (multi-tenant: nunca global)
   meta?: Record<string, unknown>;
 };
 
@@ -30,7 +31,7 @@ export function getTelefonoNormalizado(raw: string | null | undefined): string |
 export async function enviarWhatsApp(p: WhatsAppPayload): Promise<{ ok: boolean; via: string; resp?: unknown; error?: string }> {
   const evoUrl = process.env.EVOLUTION_API_URL;
   const evoKey = process.env.EVOLUTION_API_KEY;
-  const evoInst = process.env.EVOLUTION_INSTANCE;
+  const evoInst = p.instance;  // SIEMPRE instancia del tenant, NUNCA global (multi-tenant)
   const webhook = process.env.WHATSAPP_WEBHOOK_URL;
 
   if (evoUrl && evoKey && evoInst) {

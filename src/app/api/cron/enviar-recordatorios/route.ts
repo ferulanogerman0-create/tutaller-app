@@ -37,7 +37,7 @@ export async function POST(req: Request) {
     const tpl = await getConfig('wa_msg_recordatorio', tenant.id);
     const evoUrl = process.env.EVOLUTION_API_URL || '';
     const evoKey = process.env.EVOLUTION_API_KEY || '';
-    const evoInst = tenant.evoInstanceName || process.env.EVOLUTION_INSTANCE || '';
+    const evoInst = tenant.evoInstanceName || '';
 
     for (const r of pendientes) {
       const tel = getTelefonoNormalizado(r.cliente?.telefono || r.cliente?.telefonoAlt);
