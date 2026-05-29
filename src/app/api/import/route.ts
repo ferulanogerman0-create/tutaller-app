@@ -8,7 +8,7 @@ export const maxDuration = 300;
 
 export async function POST(req: Request) {
   const user = await getSessionUser();
-  if (!user || user.role !== 'admin') {
+  if (!user || (user.role !== 'admin' && user.role !== 'owner')) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 

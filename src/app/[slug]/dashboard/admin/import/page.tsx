@@ -1,11 +1,13 @@
 import { getSessionUser } from '@/lib/auth';
+import { getSlug } from '@/lib/actions/_ctx';
 import { redirect } from 'next/navigation';
 
 export const dynamic = 'force-dynamic';
 
 export default async function ImportPage({ searchParams }: { searchParams: Promise<{ fixed?: string; total?: string; missing?: string; notion?: string; updated?: string; skipped?: string; vehasoc?: string; vehsin?: string }> }) {
+  const slug = await getSlug();
   const user = await getSessionUser();
-  if (!user || user.role !== 'admin') redirect('/dashboard');
+  if (!user || (user.role !== 'admin' && user.role !== 'owner')) redirect(`/${slug}/dashboard`);
   const { fixed, total, missing, notion, updated, skipped, vehasoc, vehsin } = await searchParams;
 
   return (

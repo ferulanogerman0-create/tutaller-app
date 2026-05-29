@@ -3,14 +3,16 @@ import { getSessionUser } from '@/lib/auth';
 import { db, schema } from '@/lib/db';
 import { and, gte, lte, sql, desc } from 'drizzle-orm';
 import { resumenPeriodo, ingresoMedioPago } from '@/lib/actions/stats';
+import { getSlug } from '@/lib/actions/_ctx';
 import { Download } from 'lucide-react';
 
 export const dynamic = 'force-dynamic';
 
 export default async function InformesPage({ searchParams }: { searchParams: Promise<{ desde?: string; hasta?: string }> }) {
+  const slug = await getSlug();
   const me = await getSessionUser();
-  if (!me) redirect('/login');
-  if (me.role !== 'admin' && me.role !== 'contable') redirect('/dashboard');
+  if (!me) redirect(`/${slug}/login`);
+  if (me.role !== 'admin' && me.role !== 'owner' && me.role !== 'contable') redirect(`/${slug}/dashboard`);
 
   const sp = await searchParams;
   const hoy = new Date();

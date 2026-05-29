@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { getSessionUser } from '@/lib/auth';
+import { getSlug } from '@/lib/actions/_ctx';
 import { listAuditLog } from '@/lib/actions/audit-list';
 
 export const dynamic = 'force-dynamic';
@@ -29,19 +30,21 @@ const ACTION_LABEL: Record<string, { txt: string; cls: string }> = {
   'inventario.delete': { txt: 'Eliminó item', cls: 'bg-red-500/20 text-red-300' },
 };
 
-function entityHref(t: string | null, id: number | null): string | null {
+function entityHref(slug: string, t: string | null, id: number | null): string | null {
   if (!id) return null;
-  if (t === 'orden') return `/dashboard/ordenes/${id}`;
-  if (t === 'cliente') return `/dashboard/clientes/${id}`;
-  if (t === 'vehiculo') return `/dashboard/vehiculos/${id}`;
-  if (t === 'inventario') return '/dashboard/inventario';
+  const base = `/${slug}/dashboard`;
+  if (t === 'orden') return `${base}/ordenes/${id}`;
+  if (t === 'cliente') return `${base}/clientes/${id}`;
+  if (t === 'vehiculo') return `${base}/vehiculos/${id}`;
+  if (t === 'inventario') return `${base}/inventario`;
   return null;
 }
 
 export default async function AuditoriaPage({ searchParams }: { searchParams: Promise<{ user?: string; entity?: string; days?: string }> }) {
+  const slug = await getSlug();
   const me = await getSessionUser();
-  if (!me) redirect('/login');
-  if (me.role !== 'admin') redirect('/dashboard');
+  if (!me) redirect(`/${slug}/login`);
+  if (me.role !== 'admin' && me.role !== 'owner') redirect(`/${slug}/dashboard`);
 
   const { user, entity, days } = await searchParams;
   const rows = await listAuditLog({
@@ -98,7 +101,7 @@ export default async function AuditoriaPage({ searchParams }: { searchParams: Pr
               {rows.length === 0 && <tr><td colSpan={5} className="py-10 text-center text-fma-white-soft/40">Sin actividad</td></tr>}
               {rows.map((r) => {
                 const a = ACTION_LABEL[r.action];
-                const href = entityHref(r.entityType, r.entityId);
+                const href = entityHref(slug, r.entityType, r.entityId);
                 return (
                   <tr key={r.id} className="border-t border-fma-gray hover:bg-fma-black-3">
                     <td className="px-4 py-1.5 text-xs text-fma-white-soft/80 whitespace-nowrap">{new Date(r.createdAt).toLocaleString('es-AR')}</td>

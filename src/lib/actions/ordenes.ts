@@ -398,7 +398,7 @@ export async function updateVehiculoInline(vehiculoId: number, patch: {
 export async function deleteOrden(id: number) {
   const u = await ctx();
   const slug = await getSlug();
-  if (u.role !== 'admin' && u.role !== 'recepcion') throw new Error('unauthorized');
+  if (u.role !== 'admin' && u.role !== 'owner' && u.role !== 'recepcion') throw new Error('unauthorized');
   const o = await db.select({ comprobante: schema.ordenes.comprobante })
     .from(schema.ordenes)
     .where(and(eq(schema.ordenes.id, id), eq(schema.ordenes.tenantId, u.tenantId)))

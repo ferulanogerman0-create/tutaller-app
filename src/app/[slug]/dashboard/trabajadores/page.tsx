@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation';
 import { getSessionUser } from '@/lib/auth';
 import { listTrabajadores, createTrabajador, toggleTrabajadorActivo } from '@/lib/actions/trabajadores';
+import { getSlug } from '@/lib/actions/_ctx';
 
 export const dynamic = 'force-dynamic';
 
@@ -15,9 +16,10 @@ const ROLE_COLOR: Record<string, string> = {
 };
 
 export default async function TrabajadoresPage() {
+  const slug = await getSlug();
   const me = await getSessionUser();
-  if (!me) redirect('/login');
-  if (me.role !== 'admin') redirect('/dashboard');
+  if (!me) redirect(`/${slug}/login`);
+  if (me.role !== 'admin' && me.role !== 'owner') redirect(`/${slug}/dashboard`);
 
   const trabajadores = await listTrabajadores();
 

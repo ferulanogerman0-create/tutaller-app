@@ -63,7 +63,7 @@ export default async function DashboardLayout({
 
   const visible = NAV_DEFS
     .filter((item) =>
-      item.roles === 'all' ? true : user.role === 'admin' ? true : (item.roles as string[]).includes(user.role)
+      item.roles === 'all' ? true : (user.role === 'admin' || user.role === 'owner') ? true : (item.roles as string[]).includes(user.role)
     )
     .map((item) => ({ ...item, href: `${base}${item.path}` }));
 

@@ -1,14 +1,16 @@
 import { redirect } from 'next/navigation';
 import { getSessionUser } from '@/lib/auth';
+import { getSlug } from '@/lib/actions/_ctx';
 import { facturacionMensual, ordenesPorEstado, topClientes, topMarcas } from '@/lib/actions/stats';
 import { FacturacionChart, EstadoPieChart, MarcasChart } from './charts';
 
 export const dynamic = 'force-dynamic';
 
 export default async function GraficasPage() {
+  const slug = await getSlug();
   const me = await getSessionUser();
-  if (!me) redirect('/login');
-  if (me.role !== 'admin' && me.role !== 'contable') redirect('/dashboard');
+  if (!me) redirect(`/${slug}/login`);
+  if (me.role !== 'admin' && me.role !== 'owner' && me.role !== 'contable') redirect(`/${slug}/dashboard`);
 
   const [factMes, porEstado, clientes, marcas] = await Promise.all([
     facturacionMensual(12),
