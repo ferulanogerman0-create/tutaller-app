@@ -18,9 +18,9 @@ export function MobileSidebar({ items, children }: { items: NavItem[]; children:
         <button onClick={() => setOpen(true)} className="text-fma-white p-1">
           <Menu className="h-6 w-6" />
         </button>
-        <Link href="/dashboard" className="flex items-center gap-2">
+        <Link href={items[0]?.href || '#'} className="flex items-center gap-2">
           <FmaLogo className="h-7 w-7" />
-          <span className="font-bold text-fma-white">FMA</span>
+          <span className="font-bold text-fma-white">TuTaller</span>
         </Link>
         <div className="w-8" />
       </header>
@@ -36,8 +36,7 @@ export function MobileSidebar({ items, children }: { items: NavItem[]; children:
               <div className="flex items-center gap-2">
                 <FmaLogo className="h-8 w-8" />
                 <div>
-                  <div className="font-bold text-fma-white">FMA</div>
-                  <div className="text-xs text-fma-white-soft/50">Mecatrónica</div>
+                  <div className="font-bold text-fma-white">TuTaller</div>
                 </div>
               </div>
               <button onClick={() => setOpen(false)} className="text-fma-white p-1">

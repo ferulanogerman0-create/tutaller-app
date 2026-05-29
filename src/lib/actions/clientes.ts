@@ -3,7 +3,7 @@ import { db, schema } from '@/lib/db';
 import { eq, ilike, or, and, desc } from 'drizzle-orm';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { ctx } from './_ctx';
+import { ctx, getSlug } from './_ctx';
 
 export async function listClientes(query?: string) {
   const u = await ctx();
@@ -51,8 +51,9 @@ export async function createCliente(formData: FormData) {
     comentario: (formData.get('comentario') as string) || null,
   }).returning({ id: schema.clientes.id });
 
-  revalidatePath('/dashboard/clientes');
-  redirect(`/dashboard/clientes/${row.id}`);
+  const slug = await getSlug();
+  revalidatePath(`/${slug}/dashboard/clientes`);
+  redirect(`/${slug}/dashboard/clientes/${row.id}`);
 }
 
 export async function updateCliente(id: number, formData: FormData) {
@@ -73,6 +74,7 @@ export async function updateCliente(id: number, formData: FormData) {
     comentario: (formData.get('comentario') as string) || null,
     updatedAt: new Date(),
   }).where(and(eq(schema.clientes.id, id), eq(schema.clientes.tenantId, u.tenantId)));
-  revalidatePath(`/dashboard/clientes/${id}`);
-  redirect(`/dashboard/clientes/${id}`);
+  const slug = await getSlug();
+  revalidatePath(`/${slug}/dashboard/clientes/${id}`);
+  redirect(`/${slug}/dashboard/clientes/${id}`);
 }

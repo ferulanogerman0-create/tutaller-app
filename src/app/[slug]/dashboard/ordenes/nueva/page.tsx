@@ -6,8 +6,9 @@ import { eq, and, ne } from 'drizzle-orm';
 import { ClienteVehiculoPicker } from '@/components/cliente-vehiculo-picker';
 import { getSessionUser } from '@/lib/auth';
 
-export default async function NuevaOrdenPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function NuevaOrdenPage({ params, searchParams }: { params: Promise<{ slug: string }>; searchParams: Promise<{ error?: string }> }) {
   const { slug } = await params;
+  const { error } = await searchParams;
   const base = `/${slug}/dashboard`;
   const me = await getSessionUser();
   const tecnicos = await db.select({ id: schema.users.id, nombre: schema.users.nombre, role: schema.users.role })
@@ -24,6 +25,12 @@ export default async function NuevaOrdenPage({ params }: { params: Promise<{ slu
         <ArrowLeft className="h-4 w-4" /> Volver
       </Link>
       <h1 className="text-3xl font-bold text-fma-white mb-6">Nueva orden</h1>
+      {error === 'falta_cliente_vehiculo' && (
+        <div className="mb-4 rounded-md border border-red-500/40 bg-red-900/30 px-4 py-3 text-sm text-red-300">
+          Tenés que seleccionar un <strong>cliente</strong> y un <strong>vehículo</strong> antes de crear la orden.
+          Si no existen todavía, crealos primero en Clientes / Vehículos.
+        </div>
+      )}
       <form className="card space-y-4" action={createOrden}>
         <ClienteVehiculoPicker />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

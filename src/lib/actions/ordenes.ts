@@ -142,7 +142,7 @@ export async function createOrden(formData: FormData) {
   const slug = await getSlug();
   const clienteId = Number(formData.get('cliente_id'));
   const vehiculoId = Number(formData.get('vehiculo_id'));
-  if (!clienteId || !vehiculoId) throw new Error('Cliente y vehículo requeridos');
+  if (!clienteId || !vehiculoId) redirect(`/${slug}/dashboard/ordenes/nueva?error=falta_cliente_vehiculo`);
 
   const [row] = await db.insert(schema.ordenes).values({
     tenantId: u.tenantId,
